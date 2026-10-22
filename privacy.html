@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy policy for Personal Research Backup Access and its Google Drive connections.">
+  <title>Privacy Policy | Personal Research Backup Access</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="site-header"><div class="wrap header-inner"><a class="brand" href="/">Personal Research Backup Access</a><nav class="top-nav" aria-label="Main navigation"><a href="/">Home</a><a href="/privacy.html" aria-current="page">Privacy</a><a href="/terms.html">Terms</a></nav></div></header>
+  <main class="wrap policy">
+    <p class="eyebrow">Data practices</p>
+    <h1>Privacy Policy</h1>
+    <p class="lead">Effective October 21, 2026. This policy describes how the owner-operated backup utility handles data when connected to Google Drive and private backup storage.</p>
+    <h2>1. Who operates the utility</h2>
+    <p>This is a personal, noncommercial research backup and recovery utility used by its owner. It is not a public service. The static informational website does not offer account registration, collect Google credentials, or itself connect to Google Drive.</p>
+    <h2>2. Google Drive information accessed</h2>
+    <p>After the owner explicitly authorizes access through Google OAuth, the utility may retrieve the names, identifiers, sizes, metadata and contents of selected Drive files and folders. A <strong>read-only</strong> connection is used for viewing and copying research originals. A separately configured <strong>drive.file</strong> connection may manage backup files created or selected through that application. Actual access is limited by the Google permissions granted to each connection.</p>
+    <h2>3. How information is used</h2>
+    <p>Google Drive information is used only to identify authorized research files, prepare and preserve backups, compare cryptographic hashes and metadata, test restorations, and investigate backup or recovery errors. It is not used for advertising, profiling or resale.</p>
+    <h2>4. Storage and sharing</h2>
+    <p>Selected source files and recovery packages may be transferred from Google Drive to private, access-controlled DigitalOcean Spaces buckets or other specifically authorized backup destinations. Filenames, source identifiers, sizes, checksums, transfer outcomes and recovery evidence may be recorded in private operational manifests and logs. Google Drive data is not deliberately published on this website or in public source repositories. Cloud storage and authentication providers necessarily process data to deliver these services. The utility does not sell Google user data or share it for advertising.</p>
+    <h2>5. Credentials and security</h2>
+    <p>OAuth credentials and tokens are handled by configured backup tools and their authorized execution environments, not by this static website. Backup access is controlled through provider permissions and available encryption or restricted storage settings. No security measure guarantees absolute protection; authorization should be revoked and credentials rotated if compromise is suspected.</p>
+    <h2>6. Retention and deletion</h2>
+    <p>Research originals, historical revisions and backup copies may be retained for recovery and audit until the owner determines they are no longer required. Redundant temporary staging files may be removed after recovery is verified. Retention and deletion are controlled by the owner and the storage providers' settings. Revoking Google access stops future authorized API access but does not automatically erase copies already saved in another storage provider.</p>
+    <h2>7. This website</h2>
+    <p>These static pages do not contain advertising scripts, analytics trackers, user registration forms or cookies created by site code. Hosting and network infrastructure may process standard technical request information such as IP addresses and request logs under the provider's own policies.</p>
+    <h2>8. Owner controls</h2>
+    <p>The owner can view and revoke Google OAuth grants using their Google Account permissions page, and can inspect or delete stored archives using the relevant authorized storage account. Access permissions and backup policies are controlled separately for each destination.</p>
+    <h2>9. Contact and updates</h2>
+    <p>For privacy questions, contact the owner via the <a href="https://github.com/LoganFeeser" rel="noopener noreferrer">GitHub profile</a>. Do not publish sensitive information in a public issue. This policy may be updated when the utility's actual data practices change, with the effective date revised accordingly.</p>
+  </main>
+  <footer><div class="wrap"><span>Personal Research Backup Access</span><span><a href="/">Home</a><a href="/terms.html">Terms</a></span></div></footer>
+</body>
+</html>

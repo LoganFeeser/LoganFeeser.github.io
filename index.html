@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Information about a personal research backup utility using Google Drive and private cloud storage.">
+  <title>Personal Research Backup Access</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="/">Personal Research Backup Access</a>
+      <nav class="top-nav" aria-label="Main navigation"><a href="/">Home</a><a href="/privacy.html">Privacy</a><a href="/terms.html">Terms</a></nav>
+    </div>
+  </header>
+  <main class="wrap">
+    <p class="eyebrow">Owner-operated utility</p>
+    <h1>Private research backup and recovery</h1>
+    <p class="lead">Personal Research Backup Access is a small, noncommercial utility for safeguarding research archives and related project files. The owner uses authorized Google Drive connections, encrypted or access-controlled cloud storage, and integrity checks to support recoverable backups.</p>
+    <span class="tag">Private use • No public file sharing</span>
+    <section class="panel" aria-labelledby="how">
+      <h2 id="how">How it works</h2>
+      <p>The owner authorizes access to their own Google Drive account. Separate connections may read selected files for backup and recovery, or write backup files created by the utility when explicitly configured to do so.</p>
+      <p>Selected files may be copied to private cloud object storage, including DigitalOcean Spaces, with file sizes, checksums and restore checks used to verify the copies. The website itself does not access Google Drive, request sign-in or host the research files.</p>
+    </section>
+    <section class="panel" aria-labelledby="boundaries">
+      <h2 id="boundaries">Access and safeguards</h2>
+      <p>This utility is intended for the account owner, not offered as a public storage product. Google Drive permissions are requested through Google's standard OAuth consent flow. Read-only connections cannot modify Drive files. Backup writing connections are configured separately.</p>
+      <p>Research archives, OAuth tokens, private keys and backup manifests are not published on this site. The public pages provide information about the utility and its data practices only.</p>
+    </section>
+    <section class="panel" aria-labelledby="info">
+      <h2 id="info">Information and contact</h2>
+      <p>Read the <a href="/privacy.html">Privacy Policy</a> for details about access, storage, retention and protection of Google user data. See the <a href="/terms.html">Terms of Use</a> for the limited purpose of this owner-operated service.</p>
+      <p>For inquiries, use the owner's <a href="https://github.com/LoganFeeser" rel="noopener noreferrer">GitHub profile</a>. Do not post credentials or private research files in public GitHub discussions.</p>
+    </section>
+  </main>
+  <footer><div class="wrap"><span>Personal Research Backup Access • Independent personal utility, not affiliated with Google or DigitalOcean.</span><span><a href="/privacy.html">Privacy</a><a href="/terms.html">Terms</a></span></div></footer>
+</body>
+</html>
